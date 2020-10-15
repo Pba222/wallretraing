@@ -1,0 +1,330 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: #F5F5F5;
+}
+header {
+    position: fixed;
+    background: #02090F;
+    padding: 5px;
+    width: 100%;
+    height: 45px;
+}
+.Menusuperior span{
+    color: #1dc4e7;
+}
+.Menusuperior h3{
+    color: #fff;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30PX;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+/*Propiedades generales de menu lateral*/
+.Barralateral {
+    position: fixed;
+    margin-top: 55px;
+    left: 0;
+    width: 15.65%;
+    height: 100%;
+    background: #171717;
+}
+
+/*Propiedades de la palabra titulo "Diseño"*/
+.Barralateral h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 25px;
+}
+.Barralateral ul{
+    padding: 0;
+    margin: 0;
+}
+.Barralateral a {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-decoration: none; 
+}
+.Barralateral li{
+    border: 0px solid #0B1A2C;
+    transition-property: border;
+    transition-duration: 0.3s ;
+}
+.Barralateral li:hover{
+    background: #ff980f;
+    border-left: 6px solid #fff;
+    border-radius: 6px;
+
+}
+/*EStilos para seccion de encabezado */
+.infor {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 55px;
+    margin-left: 200px;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background: #ffffff;
+}
+.fila a{
+    position: fixed;
+    margin-top: -28px;
+    margin-left: 380px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+/*Estilo de texto para titulo 4*/
+.Contenedor{
+    position: relative;
+
+    margin-top: 25px;
+    margin-left: 20px;
+    line-height: 0px;
+}
+.col1 h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #566787;
+}
+.col1 p{
+    font-family:  Calibri;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #777879;
+}
+.col2{
+    font-family:  Calibri;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 145px;
+}
+/*Este capitulo corresponde a los input para ingresar la geometria del muro en la seccion 2
+de la pagina*/
+/*Formatos generales de la seccion de inputs*/
+.inputs {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 165px;
+    margin-left: 230px;
+    width: 35%;
+    position: fixed;
+    height: 430px;
+    background: #ffffff;
+    border-radius: 5px;
+    transition: transform 1s;
+    transform: translateX(130%);
+}
+/*Formatos para los labels de texto*/
+.Textlabels {
+    font-family:  Calibri;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #777879;
+}
+/*Este codigo es para quitar las fhechas en los input*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+/*Formatos para los campos de ingreso de datos*/
+.inputText input{
+    position: fixed;
+    margin-top: 23px;
+    margin-left: 230px;
+    height: 20px;
+    outline: none;
+    border: 1px solid silver;
+    text-align: right;
+    width: 130px;
+    font-family: Calibri;
+    font-size: 15px;
+    background: rgb(247, 247, 247);
+
+}
+/* posicion de las filas en el formulario*/
+
+.fila2{
+    margin-top: 35px;
+}
+.fila3{
+    margin-top: 62px;
+}
+.fila4{
+    margin-top: 89px;
+}
+.fila5{
+    margin-top: 116px;
+}
+.fila6{
+    margin-top: 143px;
+}
+.fila7{
+    margin-top: 170px;
+}
+.fila8{
+    margin-top: 197px;
+}
+.fila9{
+    margin-top: 224px;
+}
+.fila10{
+    margin-top: 251px;
+}
+.fila11{
+    margin-top: 310px;
+}
+.inputText input:hover{
+    border: 1px solid black;
+}
+.inputText input:focus{
+    position: fixed;
+    margin-top: 23px;
+    margin-left: 230px;
+    height: 20px;
+    outline: none;
+    border: 1px solid rgb(0,120,215);
+    text-align: right;
+    width: 130px;
+    border-radius: 2px;
+    font-family: Calibri;
+    font-size: 15px;
+    background: white;
+}
+.inputs hr{
+    width: 410px;
+    margin-left: 0px;
+    color:  #1dc4e7;
+}
+/*Estilos aplicados al boton limpíar, el cual borrara los datos de los inputs*/
+.botonLimpíar { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    border-radius: 5px;
+    color: white;
+}
+.botonLimpíar:hover { /*Accion que se ejecuta al pasar el mouse por el boton*/
+    background: #051d40;
+    border: 1px solid #051d40;
+    cursor: pointer; cursor: hand;
+}
+/*Estilos aplicados al boton dibujar, el cual dibujara la geometria en el canvas*/
+.botonDibujar { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    border-radius: 5px;
+    color: white;
+}
+.botonDibujar:hover { /*Accion que se ejecuta al pasar el mouse por el boton*/
+    background: #051d40;
+    border: 1px solid #051d40;
+    cursor: pointer; cursor: hand;
+}
+/*Estilos para canvas*/
+.Canvass {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 810px;
+    margin-left: 210px;
+    width: 590px;
+    position: fixed;
+    height: 430px;
+    background: #ffffff;
+    border-radius: 5px;
+    transition: transform 1.5s;
+    transform: translatey(-150%);
+}
+/*Contenedor popup de esquema de geometria----------------------------------------------------*/
+.popup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+.popup:target {
+    background: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    opacity: 1;
+}
+.popup:target .Contenedorpop {
+    top: 50%;
+    left: 50%;
+    visibility: visible;
+}
+.Contenedorpop {
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    top: -80%;
+    left: -80%;
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 5px; 
+    transform: translate(-50%,-50%);
+}
+.Cpopgeom {
+    position: fixed;
+    font-family: 'Noto Sans KR', sans-serif;
+    left: 230px;
+    top: 400px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    border-radius: 5px;
+    color: white;
+}
+.Cpopgeom:hover {
+    background: #32d323;
+    border: 1px solid #32d323;
+    border-radius: 5px
+}
+.Popgeom a{
+    position: fixed;
+    padding: 0px;
+    text-decoration: none;
+    color: #fff;
+    top: 450px;
+    left: 250px;
+    text-align: center;
+}
+.imgpopgeom img{
+    position: relative;
+    left: 12px;
+
+}
